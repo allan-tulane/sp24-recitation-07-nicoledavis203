@@ -1,4 +1,4 @@
-from main_sol import *
+from main import *
 
 def test_reachable():
     graph = make_undirected_graph([('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'B')])
